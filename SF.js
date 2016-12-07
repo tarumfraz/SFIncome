@@ -36,7 +36,7 @@ var femaleIncomeColor = d3.scale.threshold()
 //Geomap template code taken from http://bost.ocks.org/mike/map/
 var SFProjection = d3.geo.mercator()
    	.center([-122.433701, 37.767683])
-    .scale(260000)
+    .scale(660000)
     .translate([w / 2 - 510, h /2 - 60]);
     
 
